@@ -1,5 +1,3 @@
-FROM java:8
-WORKDIR /
-ADD Test.jar Test.jar
-EXPOSE 8080
-CMD java - jar Test.jar
+FROM alpine:3.6
+COPY ./entrypoint.sh /
+ENTRYPOINT ["/entrypoint.sh"]
