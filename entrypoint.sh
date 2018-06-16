@@ -4,13 +4,13 @@ do
    instruction=$(shuf -i 0-4 -n 1)
    d=`date -Iseconds`
    case "$instruction" in
-      "1") echo "2017-Sep-05+09:15:00.456 [aaamgr 21112 trace] [2/0/2222 <sessmgr:1> hsgw_funcs.c:222]      [software internal user syslog] HSGW Driver: Driver FSM state transition from              HSGWDRV_STATE_OPEN to HSGWDRV_STATE_NEWCALL_ARRIVED"
+      "1") echo "2017-Sep-05+09:15:00.455 [aaamgr 21113 trace]
       ;;
-      "2") echo "2017-Sep-05+09:15:00.456 [aaamgr 21112 trace] [2/0/2222 <sessmgr:1> hsgw_funcs.c:222]      [software internal user syslog] HSGW Driver: Driver FSM state transition from              HSGWDRV_STATE_OPEN to HSGWDRV_STATE_NEWCALL_ARRIVED"
+      "2") echo "2017-Sep-05+09:15:00.456 [aaamgr 21114 trace]
       ;;
-      "3") echo "2017-Sep-05+09:15:00.456 [aaamgr 21112 trace] [2/0/2222 <sessmgr:1> hsgw_funcs.c:222]      [software internal user syslog] HSGW Driver: Driver FSM state transition from              HSGWDRV_STATE_OPEN to HSGWDRV_STATE_NEWCALL_ARRIVED"
+      "3") echo "2017-Sep-05+09:15:00.457 [aaamgr 21115 trace]
       ;;
-      "4") echo "2017-Sep-05+09:15:00.456 [aaamgr 21112 trace] [2/0/2222 <sessmgr:1> hsgw_funcs.c:222]      [software internal user syslog] HSGW Driver: Driver FSM state transition from              HSGWDRV_STATE_OPEN to HSGWDRV_STATE_NEWCALL_ARRIVED"
+      "4") echo "2017-Sep-05+09:15:00.458 [aaamgr 21112 trace]
       ;;
    esac
 done
